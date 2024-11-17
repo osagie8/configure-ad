@@ -139,15 +139,15 @@ Deployment and Configuration Steps</h2>
 
 - First grab the Private IP Address from the Linux VM
 
-![alt text](SCR-20241117-dqaz-1.png)
+![alt text](/MyScreenshots/SCR-20241117-dqaz-1.png)
 
 - Then Open PowerShell
 
-![alt text](SCR-20241117-dqte.png)
+![alt text](/MyScreenshots/SCR-20241117-dqte.png)
 
 - Type in the ping command followed by the private IP address of the Linux machine. I typed in ping 10.0.0.5
 
-![alt text](SCR-20241117-dqxs.png)
+![alt text](/MyScreenshots/SCR-20241117-dqxs.png)
 
 - Powershell tells us that 10.0.0.5 is replying back which means it is in our virtual network.
 
@@ -155,15 +155,15 @@ Deployment and Configuration Steps</h2>
 
 - Use the ssh command followed by the (usernameof linuxmachine)@(PrivateIPAddress). I used ssh labuser@10.0.0.5.
 
-![alt text](SCR-20241117-druz.png)
+![alt text](/MyScreenshots/SCR-20241117-druz.png)
 
 - You will know that you have succesfully ssh into the linux when the 
 
-![alt text](SCR-20241117-dsgc.png)
+![alt text](/MyScreenshots/SCR-20241117-dsgc.png)
 
-![alt text](SCR-20241117-dshp.png)
+![alt text](/MyScreenshots/SCR-20241117-dshp.png)
 
-![alt text](SCR-20241117-dska.png)
+![alt text](/MyScreenshots/SCR-20241117-dska.png)
 
 
 
