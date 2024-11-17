@@ -25,7 +25,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1
+    - Make an Azure Account
 - Step 2
+    - Deploy two virtual machines
 - Step 3
 - Step 4
 
