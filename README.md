@@ -22,7 +22,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Overview A
+Deployment and Configuration Steps</h2>
 
 - Step 1
     - Make an Azure Account
@@ -33,10 +34,39 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
+- First, lets nagivate to the Azure portal. Here we can view the Azure services they provide us. From here we select on __Resource Groups__.
+
 ![alt text](/MyScreenshots/SCR-20241117-dimr-1.png)
 
-First, lets nagivate to the Azure portal. Here we can view the Azure services they provide us. From here we select on __Resource Groups__.
+- Then we select create resource group.
 
 ![alt text](/MyScreenshots/SCR-20241117-disb.png)
 
-Then we select create resource group.
+- Give the Resource group a name. Im going to be calling it Networkplayground because I plan to test some networking protocols out.
+
+- Then select Review + Create to deploy the resource group.
+
+![alt text](SCR-20241117-diyu.png)
+
+- Now that our Resource group is created, navigate back to the portal. From here go to __Virtual Machines__.
+
+![alt text](SCR-20241117-exmw.png)
+
+- Create a Virtual Machine.
+
+![alt text](SCR-20241117-djqw.png)
+
+- Here is how the Windows VM is configured.
+    - Select the RG recently created to make a VM inside of it.
+    - Create a VM name, im calling my VM "WindowsVM"
+    - I selected (US) West US 2. Use whatever region works for you.
+    - Select Windows 10 Pro for the Image
+    - Create a Admin user and password.(We will need to later on to sign into VM using this.)
+    - Click the checkbox
+![alt text](SCR-20241117-dkls.png)
+
+- Goto the networking tab in Azure, and crete a new virtual network by clicking on create new and selecting on 
+
+![alt text](SCR-20241117-dkyw.png)
+
+
