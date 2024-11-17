@@ -46,15 +46,15 @@ Deployment and Configuration Steps</h2>
 
 - Then select Review + Create to deploy the resource group.
 
-![alt text](SCR-20241117-diyu.png)
+![alt text](/MyScreenshots/SCR-20241117-diyu.png)
 
 - Now that our Resource group is created, navigate back to the portal. From here go to __Virtual Machines__.
 
-![alt text](SCR-20241117-exmw.png)
+![alt text](/MyScreenshots/SCR-20241117-exmw.png)
 
 - Create a Virtual Machine.
 
-![alt text](SCR-20241117-djqw.png)
+![alt text](/MyScreenshots/SCR-20241117-djqw.png)
 
 - Here is how the Windows VM is configured.
     - Select the RG recently created to make a VM inside of it.
@@ -63,10 +63,10 @@ Deployment and Configuration Steps</h2>
     - Select Windows 10 Pro for the Image
     - Create a Admin user and password.(We will need to later on to sign into VM using this.)
     - Click the checkbox
-![alt text](SCR-20241117-dkls.png)
+![alt text](/MyScreenshots/SCR-20241117-dkls.png)
 
 - Goto the networking tab in Azure, and crete a new virtual network by clicking on create new and selecting on 
 
-![alt text](SCR-20241117-dkyw.png)
+![alt text](/MyScreenshots/SCR-20241117-dkyw.png)
 
 
