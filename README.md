@@ -33,10 +33,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-![alt text](SCR-20241117-dimr-1.png)
+![alt text](/MyScreenshots/SCR-20241117-dimr-1.png)
 
 First, lets nagivate to the Azure portal. Here we can view the Azure services they provide us. From here we select on __Resource Groups__.
 
-![alt text](SCR-20241117-disb.png)
+![alt text](/MyScreenshots/SCR-20241117-disb.png)
 
 Then we select create resource group.
