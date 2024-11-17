@@ -2,37 +2,31 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+# On-premises Active Directory Deployed in the Cloud (Azure)
+My outline of the implementation of on-premises Active Directory within Azure Virtual Machines.
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
-
-<h2>Environments and Technologies Used</h2>
+#### Environments and Technologies Used
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
 
-<h2>Operating Systems Used </h2>
+#### Operating Systems Used
 
 - Windows Server 2022
 - Windows 10 (21H2)
+- Ubuntu Server 24.0
 
-<h2>Overview A
-Deployment and Configuration Steps</h2>
+#### Overview of Deployment and Configuration Steps
 
-- Step 1
-    - Make an Azure Account
-- Step 2
-    - Deploy two virtual machines
-- Step 3
-- Step 4
+- __Step 1__ - Make Resource Group
+- __Step 2__ - Create Virtual Machines
+- __Step 3__ - Remote Connect in Virtual Machine
+- __Step 4__ - Ensure connection between virtual machines
 
-<h2>Deployment and Configuration Steps</h2>
+#### Deployment and Configuration Steps
 
 - First, lets nagivate to the Azure portal. Here we can view the Azure services they provide us. From here we select on __Resource Groups__.
 
@@ -157,11 +151,13 @@ Deployment and Configuration Steps</h2>
 
 ![alt text](/MyScreenshots/SCR-20241117-druz.png)
 
-- You will know that you have succesfully ssh into the linux when the 
+- You will know that you have succesfully ssh into the linux when the CLI shows the linux machine.
 
 ![alt text](/MyScreenshots/SCR-20241117-dsgc.png)
 
 ![alt text](/MyScreenshots/SCR-20241117-dshp.png)
+
+- To end the lab firt exit out of the ssh. Then navigate to our Azure Portal > Virtual machines> and select Stop on both machines to save resources.
 
 ![alt text](/MyScreenshots/SCR-20241117-dska.png)
 
