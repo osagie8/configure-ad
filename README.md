@@ -96,7 +96,7 @@ Deployment and Configuration Steps</h2>
 
 ![alt text](/MyScreenshots/SCR-20241117-dnle.png)
 
-- Navigate to Azure Portal > Virtual Machines
+- Navigate to Azure Portal > Virtual Machines.
     
 
 ![alt text](/MyScreenshots/SCR-20241117-dnrc.png)
@@ -107,11 +107,15 @@ Deployment and Configuration Steps</h2>
 
 ![alt text](/MyScreenshots/SCR-20241117-dnxl.png)
 
+- Navigate to the "+" at the Top.
+
 ![alt text](/MyScreenshots/SCR-20241117-dobq.png)
+
+- Select Add PC.
 
 ![alt text](/MyScreenshots/SCR-20241117-dofw.png)
 
-- Copy the public IP address of the WindowsVM to the clipboard
+- Copy the public IP address of the WindowsVM to the clipboard.
 
 ![alt text](/MyScreenshots/SCR-20241117-dnrc.png)
 
