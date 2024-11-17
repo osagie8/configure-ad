@@ -63,10 +63,79 @@ Deployment and Configuration Steps</h2>
     - Select Windows 10 Pro for the Image
     - Create a Admin user and password.(We will need to later on to sign into VM using this.)
     - Click the checkbox
+
 ![alt text](/MyScreenshots/SCR-20241117-dkls.png)
 
 - Goto the networking tab in Azure, and crete a new virtual network by clicking on create new and selecting on 
 
 ![alt text](/MyScreenshots/SCR-20241117-dkyw.png)
+
+- The Virtual machine has been created. Wait for the Virtual Machine to finish deploying. This should take a couple of minutes.
+
+![alt text](/MyScreenshots/SCR-20241117-dlli.png)
+
+- Navigate back to the Azure portal. Lets create a Linux VM to connect to. Select Virtual Machines. And select create.
+
+![alt text](/MyScreenshots/SCR-20241117-dlqk.png)
+
+- Here is how the Linux VM is configured.
+    - Select the RG recently created to make a VM inside of it.
+    - Create a VM name, im calling this VM "LinuxVM"
+    - I selected (US) West US 2 again. Use whatever region works for you.
+    - Select Ubuntu Server 24 for the Imageelect a size thats at lest 2 cpu cores
+    - Change Authentication type to password
+    - Create a Admin user and password.(We will need to later on to sign into VM using this.)
+    
+![alt text](/MyScreenshots/SCR-20241117-dmfd.png)
+
+- Select the networking tab and make sure the virtual network is connected to the same virtual network as our Windows VM. In my case, I select WinVnet again. Then select Review + Create to create the VM.
+
+![alt text](/MyScreenshots/SCR-20241117-dncg.png)
+
+- The Virtual machine has been created. Wait for the Virtual Machine to finish deploying. This should take a couple of minutes.
+
+![alt text](/MyScreenshots/SCR-20241117-dnle.png)
+
+- Navigate to Azure Portal > Virtual Machines
+    
+
+![alt text](/MyScreenshots/SCR-20241117-dnrc.png)
+
+- We now have our Virtual Environment setup. Lets Remote Connect to the Windows machine.
+
+- In order to do this please install the Windows App.
+
+![alt text](/MyScreenshots/SCR-20241117-dnxl.png)
+
+![alt text](/MyScreenshots/SCR-20241117-dobq.png)
+
+![alt text](/MyScreenshots/SCR-20241117-dofw.png)
+
+- Copy the public IP address of the WindowsVM to the clipboard
+
+![alt text](/MyScreenshots/SCR-20241117-dnrc.png)
+
+- Paste the IP address into the PC name. Make the freindly name of the VM to WindowsVM. Then select add.
+
+![alt text](/MyScreenshots/SCR-20241117-door.png)
+
+- The Windows VM has successfully been created. Select the Windows VM that was just made.
+
+![alt text](/MyScreenshots/SCR-20241117-dort.png)
+
+- Enter the username and password that was created when creating the WindowsVM
+
+![alt text](/MyScreenshots/SCR-20241117-doxt.png)
+
+- Then the will grant access to the WindowsVM
+
+![alt text](/MyScreenshots/SCR-20241117-dpsn.png)
+
+
+
+
+
+
+
 
 
