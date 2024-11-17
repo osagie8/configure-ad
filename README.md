@@ -131,9 +131,41 @@ Deployment and Configuration Steps</h2>
 
 ![alt text](/MyScreenshots/SCR-20241117-doxt.png)
 
-- Then the will grant access to the WindowsVM
+- Then the app will grant access to the WindowsVM
 
 ![alt text](/MyScreenshots/SCR-20241117-dpsn.png)
+
+- Now we want to test the connection between our Windows Machine and our Linux Machine in our virtual Network.
+
+- First grab the Private IP Address from the Linux VM
+
+![alt text](SCR-20241117-dqaz-1.png)
+
+- Then Open PowerShell
+
+![alt text](SCR-20241117-dqte.png)
+
+- Type in the ping command followed by the private IP address of the Linux machine. I typed in ping 10.0.0.5
+
+![alt text](SCR-20241117-dqxs.png)
+
+- Powershell tells us that 10.0.0.5 is replying back which means it is in our virtual network.
+
+- Another way to check that both machines are in the same network is by using ssh.
+
+- Use the ssh command followed by the (usernameof linuxmachine)@(PrivateIPAddress). I used ssh labuser@10.0.0.5.
+
+![alt text](SCR-20241117-druz.png)
+
+- You will know that you have succesfully ssh into the linux when the 
+
+![alt text](SCR-20241117-dsgc.png)
+
+![alt text](SCR-20241117-dshp.png)
+
+![alt text](SCR-20241117-dska.png)
+
+
 
 
 
